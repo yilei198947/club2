@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.iscard.club"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="19" />
+    
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.iscard.club.MainActivity"
+            android:launchMode="singleTask"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <activity android:name="com.iscard.club.ui.LoginActivity"></activity>
+        <activity android:name="com.iscard.club.ui.PersonInfoActivty"></activity>
+        <activity android:name="com.iscard.club.ui.RevisePwdActivity"
+            android:label="@string/revise_pwd"></activity>
+        <activity android:name="com.iscard.club.ui.RegActivity"></activity>
+        <activity android:name="com.iscard.club.ui.ForgetPwdActivity"></activity>
+        <activity android:name="com.iscard.club.ui.GoodsDetailActivity"></activity>
+        <activity android:name="com.iscard.club.ui.GoodsSortActivity"></activity>
+        <activity android:name="com.iscard.club.ui.ServiceOrderActivity"></activity>
+    </application>
+
+</manifest>

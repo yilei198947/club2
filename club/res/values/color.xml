@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <color name="white">#fff</color>
+    <color name="green">#33CC8F</color>
+    <color name="black">#121212</color>
+    <color name="blue">#1C86EE</color>
+    <color name="red">#FF0000</color>
+    <color name="transparent">#00000000</color>
+    <color name="listview_divider">#E0E0E0</color>
+    <color name="ffd0d0d0">#ffd0d0d0</color>
+    <color name="orange">#FFB90F</color>
+    
+</resources>
